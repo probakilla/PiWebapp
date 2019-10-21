@@ -25,7 +25,7 @@ SECRET_KEY = 'z8u8(z*w#18(o3oqeilx=+pg2uhd&&=&-^pr46as3)n^d(e5po'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["pellaserver.ddns.net"]
 
 
 # Application definition
