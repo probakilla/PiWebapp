@@ -4,6 +4,6 @@ import requests
 
 class Dal(object):
 
-    def test(self):
+    def get_repo_list(self):
         r = requests.get(settings.GIT_REPOS_URL)
         return r.content
