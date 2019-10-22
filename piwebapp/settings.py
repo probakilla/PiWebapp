@@ -25,12 +25,13 @@ SECRET_KEY = 'z8u8(z*w#18(o3oqeilx=+pg2uhd&&=&-^pr46as3)n^d(e5po'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["pellaserver.ddns.net"]
+ALLOWED_HOSTS = ["pellaserver.ddns.net", 'localhost']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'gitrepos.apps.GitreposConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -108,7 +109,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Istanbul'
 
 USE_I18N = True
 
