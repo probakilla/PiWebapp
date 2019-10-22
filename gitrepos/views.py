@@ -1,4 +1,9 @@
 from django.http import HttpResponse
 
+from gitrepos.src.dal import Dal
+
+
 def index (request):
-    return HttpResponse("INDEX GITREPOS")
+    dal = Dal()
+    content = dal.test()
+    return HttpResponse(content)
