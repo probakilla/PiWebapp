@@ -1,0 +1,6 @@
+<h1>Git repo list</h1>
+{% for repo in repos_list %}
+    <div id="repo-{{ forloop.counter }}">
+        {% include "gitrepos/repos.html" with repo=repo %}
+    </div>
+{% endfor %}

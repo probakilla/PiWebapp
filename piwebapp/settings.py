@@ -122,5 +122,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-
 GIT_REPOS_URL = 'https://api.github.com/users/probakilla/repos'
